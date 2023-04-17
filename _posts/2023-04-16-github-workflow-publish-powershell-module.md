@@ -50,7 +50,9 @@ jobs:
               
               Register-PSRepository @registerArgs
               
-              Publish-Module -Path $modulePath -Repository $repositoryName -NuGetApiKey "${{ secrets.GITHUB_TOKEN }}"  
+              Publish-Module -Path $modulePath `
+                -Repository $repositoryName `
+                -NuGetApiKey "${{ secrets.GITHUB_TOKEN }}"  
 ```
 {% endraw %}
 
