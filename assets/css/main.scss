@@ -1,5 +1,6 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
+search: false
 ---
 
 @charset "utf-8";
@@ -15,6 +16,7 @@ $type-size-6: 0.8em !default;
 $type-size-7: 0.8em !default;
 $type-size-8: 0.625em !default;
 
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes";
 
 // Modify default code block style
