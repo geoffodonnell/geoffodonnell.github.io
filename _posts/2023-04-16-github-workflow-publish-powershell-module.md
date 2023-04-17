@@ -1,5 +1,5 @@
 ---
-title: "GitHub Workflow: Publish a PowerShell Module to GitHub Packages"
+title: "Publish a PowerShell Module to GitHub Packages"
 date: 2023-04-16T20:40:00-04:00
 categories:
   - How-To
