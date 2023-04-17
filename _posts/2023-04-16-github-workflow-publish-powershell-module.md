@@ -13,6 +13,7 @@ tags:
 
 Publishing your PowerShell module is straightfoward within a GitHub workflow. 
 
+{% raw %}
 ```yml
 jobs:
     publish:
@@ -51,6 +52,8 @@ jobs:
               
               Publish-Module -Path $modulePath -Repository $repositoryName -NuGetApiKey "${{ secrets.GITHUB_TOKEN }}"  
 ```
+{% endraw %}
+
 
 Check out the [GitHub Packages docs][github-packages-docs] for more info on publishing packages to GitHub.
 
