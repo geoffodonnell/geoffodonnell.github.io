@@ -16,7 +16,7 @@ I arrived at the steps below after some trial and error. At the time this writin
   * Set up the NuGet client to read packages from private GitHub Packages registry
   * Create a local PowerShell Module Registry
   * Using the NuGet client, download the module package directly to local PowerShell Module Registry
-  * Install package from local PowerShell Module Registry
+  * Install the package from local PowerShell Module Registry
 
 Note that [publishing a PowerShell module to GitHub Packages]({% post_url 2023-04-16-github-workflow-publish-powershell-module %}) is discussed in a previous post.
 
