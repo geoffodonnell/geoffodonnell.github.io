@@ -11,13 +11,13 @@ tags:
   - Module
 ---
 
-Publishing your PowerShell module is straightfoward from within a GitHub workflow. The `ubuntu-latest` image includes PowerShell, so you're able to use the built-in `Publish-Module` cmdlet to get the job done.
+Publishing your PowerShell module is straightfoward from within a GitHub workflow. In general, PowerShell modules are published to a NuGet compatible registry, which is [supported by GitHub Pakages](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-nuget-registry) The `ubuntu-latest` image includes PowerShell (with PowerShellGet installed), so you're able to use the existing `Publish-Module` cmdlet to get the job done.
 
 Key points:
   * In order to use the `github.token` secret, the permissions.packages:write value must be included
   * Include a module manifest in the module directory, one can be generated using `New-ModuleManifest`
 
-The `Publish module` step in the workflow definition below demonstrates publishing the package to repository owners NuGet feed.
+The `Publish module` step in the workflow definition below demonstrates publishing the package to repository owners NuGet registry.
 
 {% raw %}
 ```yml
