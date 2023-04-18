@@ -11,7 +11,7 @@ tags:
   - Module
 ---
 
-I arrived at the steps below after some trial and error. At the time this writing (04/17/2023) there seems to be some incompatibility with the default version of [PowerShellGet](https://learn.microsoft.com/en-us/powershell/module/powershellget/?view=powershellget-2.x) and the version of NuGet server that powers GitHub Packages. As a workaround to these incompatibilities, my approach is as follows:
+I arrived at the steps below after some trial and error. At the time this writing (04/17/2023) there seems to be some incompatibility with the default version of [PowerShellGet](powershellget-docs) and the version of NuGet server that powers GitHub Packages. As a workaround to these incompatibilities, my approach is as follows:
 
   * Set up the NuGet client to read packages from private GitHub Packages registry
   * Create a local PowerShell Module Registry
@@ -79,4 +79,5 @@ jobs:
 
 Check out the [GitHub Packages docs][github-packages-docs] for more info on publishing packages to GitHub.
 
+[powershellget-docs]: https://learn.microsoft.com/en-us/powershell/module/powershellget/?view=powershellget-2.x
 [github-packages-docs]: https://docs.github.com/en/packages/learn-github-packages/introduction-to-github-packages
