@@ -7,7 +7,7 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/banner.png
   actions:
-    - label: "<i class='fas fa-laptop-code'></i> View Projects"
+    - label: "<i class='far fa-project-diagram'></i> View All Projects"
       url: "https://github.com/geoffodonnell/"
 excerpt: >
   Hi! I'm Geoff. I like to build software.
