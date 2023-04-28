@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /home/
+permalink: /
 hidden: true
 title: Geoff O'Donnell
 header:
