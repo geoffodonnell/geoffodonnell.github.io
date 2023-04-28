@@ -26,7 +26,7 @@ feature_row:
     url: "https://github.com/geoffodonnell/dotnet-tinyman-sdk"
     btn_class: "btn--primary"
     btn_label: "Check it out!"
-  - image_path: /assets/images/generic-project.png
+  - image_path: /assets/images/algorand-project.png
     alt: "common tools"
     title: "Algorand.Common"
     excerpt: "A library that provides support for the Algorand .NET SDK 2."
