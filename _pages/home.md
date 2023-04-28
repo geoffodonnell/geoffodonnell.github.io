@@ -19,7 +19,7 @@ feature_row:
     url: "https://github.com/geoffodonnell/powershell-algorand-module"
     btn_class: "btn--primary"
     btn_label: "Check it out!"
-  - image_path: /assets/images/generic-project.png
+  - image_path: /assets/images/tinyman-project.png
     alt: "tinyman sdk"
     title: "Tinyman .NET SDK"
     excerpt: "A library that provides access to the Tinyman AMM on the Algorand blockchain."
