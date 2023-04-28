@@ -12,7 +12,7 @@ header:
 excerpt: >
   Hi! I'm Geoff. I like to build software.
 feature_row:
-  - image_path: /assets/images/generic-project.png
+  - image_path: /assets/images/powershell-module-project.png
     alt: "powershell module"
     title: "Algorand PS Module"
     excerpt: "A PowerShell module that provides tools for the Algorand blockchain."
