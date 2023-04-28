@@ -9,6 +9,7 @@ header:
   actions:
     - label: "<i class='fas fa-code-branch'></i> View All Projects"
       url: "https://github.com/geoffodonnell/"
+  caption: "Photo credit: [**@jstrippa**](https://unsplash.com/@jstrippa)"
 excerpt: >
   Hi! I'm Geoff. I like to build software.
 feature_row:
