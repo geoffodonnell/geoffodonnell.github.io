@@ -2,18 +2,19 @@
 layout: splash
 permalink: /home/
 hidden: true
+title: Geoff O'Donnell
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/banner.jpg
+  overlay_image: /assets/images/banner.png
   actions:
     - label: "<i class='fas fa-download'></i> View Projects"
       url: "https://github.com/geoffodonnell/"
 excerpt: >
-  Hi! I'm Geoff. I like build software projects.
+  Hi! I'm Geoff. I like to build software.
 feature_row:
   - image_path: /assets/images/generic-project.png
     alt: "powershell module"
-    title: "Algorand PowerShell Module"
+    title: "Algorand Module"
     excerpt: "A PowerShell module that provides tools for the Algorand blockchain."
     url: "https://github.com/geoffodonnell/powershell-algorand-module"
     btn_class: "btn--primary"
