@@ -1,0 +1,16 @@
+<div class="feature__wrapper">
+	<div class="feature__item" style="width: 100%;">
+		{% for post in site.posts limit:1 %}
+		<div class="archive__item">
+			<div class="archive__item-body" style="margin-bottom: 2em; padding-left: calc(1.6949152542% / 3); padding-right: calc(1.6949152542% / 3); ">
+				<h1>Recent Post</h1>
+				<h3 class="archive__item-title">{{ post.title }}</h3>
+				<div class="archive__item-excerpt">
+					<p>{{ post.excerpt | markdownify }}</p>
+				</div>
+				<a href="{{ site.baseurl }}{{ post.url}}" class="btn btn--primary">Read more...</a>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>

@@ -37,3 +37,5 @@ feature_row:
 ---
 
 {% include feature_row %}
+
+{% include recent-post.html %}
