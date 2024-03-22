@@ -15,6 +15,13 @@ excerpt: >
 feature_row:
   - image_path: /assets/images/powershell-module-project.png
     alt: "powershell module"
+    title: "OTP PS Module"
+    excerpt: "A PowerShell module that provides tools for One Time Password Authentication."
+    url: "https://github.com/geoffodonnell/powershell-otpauth-module"
+    btn_class: "btn--primary"
+    btn_label: "Check it out!"
+  - image_path: /assets/images/powershell-module-project.png
+    alt: "powershell module"
     title: "Algorand PS Module"
     excerpt: "A PowerShell module that provides tools for the Algorand blockchain."
     url: "https://github.com/geoffodonnell/powershell-algorand-module"
@@ -26,14 +33,7 @@ feature_row:
     excerpt: "A library that provides access to the Tinyman AMM on the Algorand blockchain."
     url: "https://github.com/geoffodonnell/dotnet-tinyman-sdk"
     btn_class: "btn--primary"
-    btn_label: "Check it out!"
-  - image_path: /assets/images/algorand-project.png
-    alt: "common tools"
-    title: "Algorand.Common"
-    excerpt: "A library that provides support for the Algorand .NET SDK 2."
-    url: "https://github.com/geoffodonnell/dotnet-algorand-common"
-    btn_class: "btn--primary"
-    btn_label: "Check it out!"     
+    btn_label: "Check it out!"  
 ---
 
 {% include feature_row %}
